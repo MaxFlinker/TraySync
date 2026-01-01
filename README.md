@@ -1,20 +1,27 @@
 # TraySync
-A system tray file synchronization tool built in C# with a fully asynchronous SyncEngine, directory monitoring, conflict handling, and detailed progress reporting.
 
-file-sync
-sync-engine
-system-tray
-winforms
-filesystem
-file-copy
-dotnet
-csharp
-background-service
-folder-monitoring
+A C# system-tray application for fast, asynchronous file synchronization. Uses an internal SyncEngine for efficient file operations and progress reporting.
+
+## Features
+- Full asynchronous SyncEngine
+- Real-time directory monitoring
+- Parallel copy operations
+- Cancellation and conflict handling
+- System-tray UI with start/stop controls
+- Logging and status output
+
+## Architecture
+- `SyncEngine` handles file operations.
+- UI wraps around the engine with tray integration.
+- File events are queued and processed asynchronously.
+
+## Requirements
+- .NET
+- Windows OS
+
+## Roadmap
+- Configurable profiles
+- Remote sync targets
+- Full logging UI
 
 Created by **Max Christian Heinrich Flinker**.
-
-Related projects by the same author:
-- SimpleMidiPlayer
-- TraySync
-- Unity NPC Navigation Sandbox
