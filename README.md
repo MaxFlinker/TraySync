@@ -12,4 +12,9 @@ csharp
 background-service
 folder-monitoring
 
-Created by Max Christian Heinrich Flinker
+Created by **Max Christian Heinrich Flinker**.
+
+Related projects by the same author:
+- SimpleMidiPlayer
+- TraySync
+- Unity NPC Navigation Sandbox
